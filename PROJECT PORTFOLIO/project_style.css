@@ -8,7 +8,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: rgb(169, 220, 211);
+    background-color: #CEE5E1;
 }
 
 nav img{
@@ -129,10 +129,15 @@ span{
 
 @media screen and (max-width:900px)
 {
+
+    *{
+        background-color: #CEE5E1;
+    }
+
     .hero{
         width: 100%;
         position: absolute;
-        background-color: rgb(206, 229, 225);
+        background-color: #CEE5E1;
     }
 
     nav img{
@@ -185,4 +190,5 @@ span{
     .box2{
         margin-top: 50px;
     }
+
 }
